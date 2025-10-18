@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mea+Culpa&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comforter+Brush&display=swap');
 @import "tailwindcss";
 
 html, body {
   width: 100vw;
   background-color: #030814;
   color: white;
-  
 }
 
 
@@ -23,10 +23,15 @@ html, body {
 
 @layer components {
   .hero-text {
-    @apply md:mx-5 mx-2 md:my-4 my-2;
-    h1 {
-      @apply md:text-[60px] text-[30px] ;
-    }
+    @apply mx-[min(5vw,100px)] my-[min(8vw,100px)];
+  }
+
+  .firstname {
+      @apply text-[min(12vw,200px)];
+  }
+
+  .lastname {
+    @apply text-[min(4vw,100px)];
   }
 }
 
@@ -41,14 +46,27 @@ html, body {
 .wrapper {
   display: flex;
   flex-direction: column;
-  animation: wordSlider 21s infinite cubic-bezier(0.9, 0.01, 0.3, 0.99);
+  animation: Slider 20s infinite cubic-bezier(0.9, 0.01, 0.3, 0.99);
 }
 
-@keyframes wordSlider {
-  0% {
+.subwrapper {
+  display: flex;
+  flex-direction: column;
+  animation: Slider 10s infinite cubic-bezier(0.9, 0.01, 0.3, 0.99);
+}
+
+
+@keyframes Slider {
+  0%, 50% {
     transform: translateY(0%);
   }
-  50% {
+  50.1%, 100% {
     transform: translateY(-50%);
   }
+}
+
+.namepolice {
+  font-family: "Comforter Brush", cursive;
+  font-weight: 400;
+  font-style: normal;
 }
