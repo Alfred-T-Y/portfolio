@@ -36,31 +36,24 @@ html, body {
 }
 
 
-
-.slide {
-  display: inline-block;
-  flex-direction: column;
-  transition: all cubic-bezier(0.71, 0.03, 0.34, 1);
-}
-
 .wrapper {
   display: flex;
   flex-direction: column;
-  animation: Slider 20s infinite cubic-bezier(0.9, 0.01, 0.3, 0.99);
+  animation: Slider 30s infinite cubic-bezier(0.9, 0.01, 0.3, 0.99);
 }
 
 .subwrapper {
   display: flex;
   flex-direction: column;
-  animation: Slider 10s infinite cubic-bezier(0.9, 0.01, 0.3, 0.99);
+  animation: Slider 15s infinite cubic-bezier(0.9, 0.01, 0.3, 0.99);
 }
 
 
 @keyframes Slider {
-  0%, 50% {
+  0% {
     transform: translateY(0%);
   }
-  50.1%, 100% {
+  50.1% {
     transform: translateY(-50%);
   }
 }
