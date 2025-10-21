@@ -2,7 +2,7 @@ import React from 'react'
 
 const Slideanimation = ({roles}) => {
   return (
-    <div className='overflow-hidden w-[min(40vw,10000px)] h-[min(3vw,10000px)]'>
+    <div className='overflow-hidden w-[min(30vw,10000px)] h-[min(3vw,10000px)]'>
       <span className='wrapper'>
           {roles.map((role) => 
               (<span className='font-[500]'>

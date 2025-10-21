@@ -23,7 +23,11 @@ html, body {
 
 @layer components {
   .hero-text {
-    @apply mx-[min(5vw,100px)] my-[min(8vw,100px)];
+    @apply m-[min(5vw,10000px)] p-[min(3vw,10000px)] rounded-[min(1vw,10000px)];
+  }
+
+  .hero-logo {
+    @apply mx-[min(5vw,10000px)] my-[min(12vw,10000px)] px-[min(5vw,10000px)];
   }
 
   .firstname {
@@ -56,6 +60,27 @@ html, body {
   }
   50.1% {
     transform: translateY(-50%);
+  }
+}
+
+.logowrapper {
+  display: flex;
+  flex-direction: row;
+  animation: Logo 30s infinite cubic-bezier(1.00,0.05,1.00,-0.24);
+}
+
+@keyframes Logo {
+  0% {
+    transform: translateX(0%);
+  }
+  25.1% {
+    transform: translateX(-25%);
+  }
+  50.1% {
+    transform: translateX(-50%);
+  }
+  75.1% {
+    transform: translateX(-75%);
   }
 }
 
