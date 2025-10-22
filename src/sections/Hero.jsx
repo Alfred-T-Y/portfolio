@@ -5,7 +5,7 @@ import Logoanimation from '../components/Logoanimation';
 
 const Hero = () => {
   return (
-    <section id="hero" className='flex flex-row relative overflow-hidden gap-5 ]'>
+    <section id="hero" className='flex flex-row relative overflow-hidden'>
         <header className='hero-text'>
             <div className='my-[min(2vw,10000px)]]'>
                 <h1 className='firstname namepolice'>Alfred</h1> 

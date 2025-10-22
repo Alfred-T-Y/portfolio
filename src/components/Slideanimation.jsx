@@ -18,6 +18,7 @@ const Slideanimation = ({roles}) => {
                             <img
                                 src={role.imagePath}
                                 alt={role.text}
+                                key={role.text}
                                 className='absolute top-[min(0.5vw,10000px)] size-[min(5vw,10000px)]'
                             />
                           </span>
@@ -41,6 +42,7 @@ const Subslideanimation = ({role}) => {
                     <img
                         src={rol.imagePath}
                         alt={rol.text}
+                        key={rol.text}
                         className='size-[min(3vw,10000px)]'
                     />
                     <div className='text-[min(2vw,10000px)]'>{rol.text}</div>

@@ -23,7 +23,7 @@ html, body {
 
 @layer components {
   .hero-text {
-    @apply m-[min(5vw,10000px)] p-[min(3vw,10000px)] rounded-[min(1vw,10000px)];
+    @apply ml-[min(4vw,10000px)] p-[min(3vw,10000px)] rounded-[min(1vw,10000px)];
   }
 
   .hero-logo {
@@ -71,16 +71,16 @@ html, body {
 
 @keyframes Logo {
   0% {
-    transform: translateX(0%);
+    transform: translateX(-16.6%);
   }
   25.1% {
-    transform: translateX(-25%);
+    transform: translateX(-116.6%);
   }
   50.1% {
-    transform: translateX(-50%);
+    transform: translateX(-216.6%);
   }
   75.1% {
-    transform: translateX(-75%);
+    transform: translateX(-316.6%);
   }
 }
 
