@@ -23,11 +23,11 @@ html, body {
 
 @layer components {
   .hero-text {
-    @apply ml-[min(4vw,10000px)] p-[min(3vw,10000px)] rounded-[min(1vw,10000px)];
+    @apply mx-[min(6vw,10000px)] p-[min(3vw,10000px)] rounded-[min(1vw,10000px)];
   }
 
   .hero-logo {
-    @apply mx-[min(5vw,10000px)] my-[min(12vw,10000px)] px-[min(5vw,10000px)];
+    @apply mx-[min(5vw,10000px)] mt-[min(8vw,10000px)] px-[min(5vw,10000px)];
   }
 
   .firstname {
