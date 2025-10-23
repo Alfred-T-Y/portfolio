@@ -64,8 +64,6 @@ html, body {
 }
 
 .logowrapper {
-  display: flex;
-  flex-direction: row;
   animation: Logo 30s infinite cubic-bezier(1.00,0.05,1.00,-0.24);
 }
 
