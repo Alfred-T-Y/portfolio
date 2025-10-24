@@ -27,7 +27,7 @@ html, body {
   }
 
   .hero-logo {
-    @apply mx-[min(5vw,10000px)] mt-[min(8vw,10000px)] px-[min(5vw,10000px)];
+    @apply mr-[min(5vw,10000px)] mt-[min(8vw,10000px)] px-[min(5vw,10000px)];
   }
 
   .firstname {
@@ -69,16 +69,16 @@ html, body {
 
 @keyframes Logo {
   0% {
-    transform: translateX(-16.6%);
+    transform: translateX(-8.69%);
   }
   25.1% {
-    transform: translateX(-116.6%);
+    transform: translateX(-30.43%);
   }
   50.1% {
-    transform: translateX(-216.6%);
+    transform: translateX(-52.17%);
   }
   75.1% {
-    transform: translateX(-316.6%);
+    transform: translateX(-73.91%);
   }
 }
 

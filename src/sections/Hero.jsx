@@ -25,7 +25,7 @@ const Hero = () => {
                 text='Get to my github' textclassname='text-[min(1.5vw,10000px)] text-[#030814] font-[500]' iconpath='/images/github.svg'
                 iconclassname='size-[min(2vw,10000px)]'/>
             </header>
-            <header className='hero-logo'>
+            <header className=''>
                 <Logoanimation logos={logos}/>
             </header>
         </section>
